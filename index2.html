@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content=" ***Website Description Here*** "/>
+
+<meta name="author" content="Jacob Hammond"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+<title>DotaQuest | Randomized Dota objectives</title>
+
+<!--<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" />-->
+<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+<!--<link rel="stylesheet" href="css/mobile.css" type="text/css" media="screen" />-->
+
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!--[if lt IE 9]>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+
+<style>
+
+</style>
+
+</head>
+
+<body>
+
+<div id="main-wrapper">
+
+<header>
+
+</header>
+
+<div id="hero-name"></div>
+
+<footer>
+
+</footer>
+
+</div><!-- main-wrapper end -->
+
+</body>
+
+<script src="js/jquery-1.9.1.min.js" charset="utf-8"></script>
+
+<script>
+    $(function(){
+        $.getJSON('heros.json',function(data){
+            console.log('success');
+            console.log(data.result.heroes[Math.floor((Math.random()*103)+0)]);
+        }).error(function(){
+            console.log('error');
+        });
+        //$('#hero-name').append(data);
+    });
+</script>
+
+</html>
