@@ -51,6 +51,7 @@
 <script src="js/jquery-1.9.1.min.js" charset="utf-8"></script>
 
 <script>
+	function getheroes() {
         $.getJSON('heros.json',function(data){
             console.log('success');
             var heroes = data.result.heroes[Math.floor((Math.random()*data.result.count))].name;
@@ -59,8 +60,10 @@
             console.log('error');
         });
 
+    }
+
         $('#refresh').click(function() {
-    	location.reload();
+    	getheroes();
 });
 </script>
 
