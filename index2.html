@@ -32,6 +32,8 @@
 
 <header>
 
+	<h1>DoTA2 Quest</h1>
+
 </header>
 
 <div id="hero-name"></div>
@@ -47,15 +49,13 @@
 <script src="js/jquery-1.9.1.min.js" charset="utf-8"></script>
 
 <script>
-    $(function(){
         $.getJSON('heros.json',function(data){
             console.log('success');
-            console.log(data.result.heroes[Math.floor((Math.random()*103)+0)]);
+            var heroes = data.result.heroes[Math.floor((Math.random()*data.result.count))].name;
+            $('#hero-name').html(heroes);
         }).error(function(){
             console.log('error');
         });
-        //$('#hero-name').append(data);
-    });
 </script>
 
 </html>
