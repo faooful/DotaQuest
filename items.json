@@ -2,295 +2,295 @@
     "result": {
         "items": [
             {
-                "name": "Blink Dagger",
+                "item": "Blink Dagger",
                 "id": 1
             },
             {
-                "name": "Magic Wand",
+                "item": "Magic Wand",
                 "id": 2
             },
             {
-                "name": "Bottle",
+                "item": "Bottle",
                 "id": 3
             },
             {
-                "name": "Boots of Travel",
+                "item": "Boots of Travel",
                 "id": 4
             },
             {
-                "name": "Phase Boots",
+                "item": "Phase Boots",
                 "id": 5
             },
             {
-                "name": "Power Treads",
+                "item": "Power Treads",
                 "id": 6
             },
             {
-                "name": "Hand of Midas",
+                "item": "Hand of Midas",
                 "id": 7
             },
             {
-                "name": "Oblivion Staff",
+                "item": "Oblivion Staff",
                 "id": 8
             },
             {
-                "name": "Perseverance",
+                "item": "Perseverance",
                 "id": 9
             },
             {
-                "name": "Poor mans sheild",
+                "item": "Poor mans sheild",
                 "id": 10
             },
             {
-                "name": "Bracer",
+                "item": "Bracer",
                 "id": 11
             },
             {
-                "name": "Wraith Band",
+                "item": "Wraith Band",
                 "id": 12
             },
             {
-                "name": "Null Talisman",
+                "item": "Null Talisman",
                 "id": 13
             },
             {
-                "name": "Mekansm",
+                "item": "Mekansm",
                 "id": 14
             },
             {
-                "name": "Vladmir's Offering",
+                "item": "Vladmir's Offering",
                 "id": 15
             },
             {
-                "name": "Buckler",
+                "item": "Buckler",
                 "id": 16
             },
             {
-                "name": "Ring of Basilius",
+                "item": "Ring of Basilius",
                 "id": 17
             },
             {
-                "name": "Pipe of Insight",
+                "item": "Pipe of Insight",
                 "id": 18
             },
             {
-                "name": "Urn of Shadows",
+                "item": "Urn of Shadows",
                 "id": 19
             },
             {
-                "name": "Headdress",
+                "item": "Headdress",
                 "id": 20
             },
             {
-                "name": "Scythe of Vyse",
+                "item": "Scythe of Vyse",
                 "id": 21
             },
             {
-                "name": "Orchid Malevolence",
+                "item": "Orchid Malevolence",
                 "id": 22
             },
             {
-                "name": "Eul's Scepter of Divinity",
+                "item": "Eul's Scepter of Divinity",
                 "id": 23
             },
             {
-                "name": "Force Staff",
+                "item": "Force Staff",
                 "id": 24
             },
             {
-                "name": "Dagon",
+                "item": "Dagon",
                 "id": 25
             },
             {
-                "name": "Necronomicon",
+                "item": "Necronomicon",
                 "id": 26
             },
             {
-                "name": "Aghanim's Scepter",
+                "item": "Aghanim's Scepter",
                 "id": 27
             },
             {
-                "name": "Refresher Orb",
+                "item": "Refresher Orb",
                 "id": 28
             },
             {
-                "name": "Assault Cuirass",
+                "item": "Assault Cuirass",
                 "id": 29
             },
             {
-                "name": "Heart of Tarrasque",
+                "item": "Heart of Tarrasque",
                 "id": 30
             },
             {
-                "name": "Black King Bar",
+                "item": "Black King Bar",
                 "id": 31
             },
             {
-                "name": "Heart of Tarrasque",
+                "item": "Heart of Tarrasque",
                 "id": 32
             },
             {
-                "name": "Shiva's Gaurd",
+                "item": "Shiva's Gaurd",
                 "id": 33
             },
             {
-                "name": "Blood Stone",
+                "item": "Blood Stone",
                 "id": 34
             },
             {
-                "name": "Linken's Sphere",
+                "item": "Linken's Sphere",
                 "id": 35
             },
             {
-                "name": "Vanguard",
+                "item": "Vanguard",
                 "id": 36
             },
             {
-                "name": "Blade Mail",
+                "item": "Blade Mail",
                 "id": 37
             },
             {
-                "name": "Soul Booster",
+                "item": "Soul Booster",
                 "id": 38
             },
             {
-                "name": "Hood of Defiance",
+                "item": "Hood of Defiance",
                 "id": 39
             },
             {
-                "name": "Divine Rapier",
+                "item": "Divine Rapier",
                 "id": 40
             },
             {
-                "name": "Monkey King Bar",
+                "item": "Monkey King Bar",
                 "id": 41
             },
             {
-                "name": "Radiance",
+                "item": "Radiance",
                 "id": 42
             },
             {
-                "name": "Butterfly",
+                "item": "Butterfly",
                 "id": 43
             },
             {
-                "name": "Crystalys",
+                "item": "Crystalys",
                 "id": 44
             },
             {
-                "name": "Daedalus",
+                "item": "Daedalus",
                 "id": 45
             },
             {
-                "name": "Skull Basher",
+                "item": "Skull Basher",
                 "id": 46
             },
             {
-                "name": "Battle Fury",
+                "item": "Battle Fury",
                 "id": 47
             },
             {
-                "name": "Manta Style",
+                "item": "Manta Style",
                 "id": 48
             },
             {
-                "name": "Armlet of Mordiggian",
+                "item": "Armlet of Mordiggian",
                 "id": 49
             },
             {
-                "name": "Shadow Blade",
+                "item": "Shadow Blade",
                 "id": 50
             },
             {
-                "name": "Sange and Yasha",
+                "item": "Sange and Yasha",
                 "id": 51
             },
             {
-                "name": "Satanic",
+                "item": "Satanic",
                 "id": 52
             },
             {
-                "name": "Mjollnir",
+                "item": "Mjollnir",
                 "id": 53
             },
             {
-                "name": "Eye of Skadi",
+                "item": "Eye of Skadi",
                 "id": 54
             },
             {
-                "name": "Sange",
+                "item": "Sange",
                 "id": 55
             },
             {
-                "name": "Helm of the Dominator",
+                "item": "Helm of the Dominator",
                 "id": 56
             },
             {
-                "name": "Maelstrom",
+                "item": "Maelstrom",
                 "id": 57
             },
             {
-                "name": "Desolator",
+                "item": "Desolator",
                 "id": 58
             },
             {
-                "name": "Yasha",
+                "item": "Yasha",
                 "id": 59
             },
             {
-                "name": "Mask of Madness",
+                "item": "Mask of Madness",
                 "id": 60
             },
             {
-                "name": "Diffusal Blade",
+                "item": "Diffusal Blade",
                 "id": 61
             },
             {
-                "name": "Ethereal Blade",
+                "item": "Ethereal Blade",
                 "id": 62
             },
             {
-                "name": "Soul Ring",
+                "item": "Soul Ring",
                 "id": 63
             },
             {
-                "name": "Arcane Boots",
+                "item": "Arcane Boots",
                 "id": 64
             },
             {
-                "name": "Drum of Endurance",
+                "item": "Drum of Endurance",
                 "id": 65
             },
             {
-                "name": "Medallion of Courage",
+                "item": "Medallion of Courage",
                 "id": 66
             },
             {
-                "name": "Veil of Discord",
+                "item": "Veil of Discord",
                 "id": 67
             },
             {
-                "name": "Rod of Atos",
+                "item": "Rod of Atos",
                 "id": 68
             },
             {
-                "name": "Abyssal Blade",
+                "item": "Abyssal Blade",
                 "id": 69
             },
             {
-                "name": "Heavens Halberd",
+                "item": "Heavens Halberd",
                 "id": 70
             },
             {
-                "name": "Ring of Aquila",
+                "item": "Ring of Aquila",
                 "id": 71
             },
             {
-                "name": "Tranquil Boots",
+                "item": "Tranquil Boots",
                 "id": 72
             },
         ]
         ,
-        "count": 1
+        "count": 72
     }
 }

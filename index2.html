@@ -37,8 +37,11 @@
 </header>
 
 <div id="hero-name"></div>
+<div id="item-name"></div>
 
 <button id="refresh">touch me... slowly</button>
+
+
 
 <footer>
 
@@ -61,19 +64,12 @@
         });
     }
 
-    function getitems() {
-        $.getJSON('items.json',function(data){
-            console.log('success');
-            var heroes = data.result.heroes[Math.floor((Math.random()*data.result.count))].name;
-            $('#hero-name').html(heroes);
-        }).error(function(){
-            console.log('error');
-        });
-    }
-
         $('#refresh').click(function() {
     	getheroes();
+
 });
 </script>
+
+
 
 </html>
