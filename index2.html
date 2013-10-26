@@ -57,16 +57,29 @@
 <script>
 	function getheroes() {
         $.getJSON('heroes.json',function(data){
-            console.log('success');
             var heroes = data.result.heroes[Math.floor((Math.random()*104)+1)].name;
             $('#hero-name').html(heroes);
         }).error(function(){
-            console.log('error');
         });
     }
-
         $('#refreshHero').click(function() {
     	getheroes();
+
+});
+</script>
+
+<script>
+    function getitems() {
+        $.getJSON('items.json',function(data) {
+            for ( var i = 0; i < 6; i++ ) {
+                var items = data.result.items[Math.floor((Math.random()*72)+1)].item;
+                $('#item-name').html(items);
+            }
+        }).error(function(){
+        });
+    }
+        $('#refreshItem').click(function() { 
+        getitems();
 
 });
 </script>
