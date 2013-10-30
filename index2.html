@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content=" ***Website Description Here*** "/>
 
-<meta name="author" content="Jacob Hammond"/>
+<meta name="author" content="Joseph Williams"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 
 <title>DotaQuest | Randomized Dota objectives</title>
@@ -33,14 +33,15 @@
 <header>
 
 	<h1>DoTA2 Quest</h1>
+    <p>Randomised hero and items for a unique dota2 expereince</p>
 
 </header>
 
 <div id="hero-name"></div>
-<div id="item-name"></div>
+<div class="item-name"></div>
 
-<button id="refreshHero">touch me... slowly</button>
-<button id="refreshItem">touch me... quickly</button>
+<button id="refreshHero">Hero</button>
+<button id="refreshItem">Items</button>
 
 
 
@@ -57,7 +58,7 @@
 <script>
 	function getheroes() {
         $.getJSON('heroes.json',function(data){
-            var heroes = data.result.heroes[Math.floor((Math.random()*104)+1)].name;
+            var heroes = data.result.heroes[Math.ceil(Math.random()*103)].name;
             $('#hero-name').html(heroes);
         }).error(function(){
         });
@@ -70,15 +71,24 @@
 
 <script>
     function getitems() {
+        var arr = [], used = {}, val;
+        for (var i = 0; i < 6; i++) {
+            do {
+                val = Math.ceil(Math.random()*71);
+            } while (val in used);
+        used[val] = true;
+        arr.push(val);
+    } 
         $.getJSON('items.json',function(data) {
             for ( var i = 0; i < 6; i++ ) {
-                var items = data.result.items[Math.floor((Math.random()*72)+1)].item;
-                $('#item-name').html(items);
+                var items = data.result.items[arr[i]].item;
+                $('.item-name').append(items + " ");
             }
         }).error(function(){
         });
     }
-        $('#refreshItem').click(function() { 
+        $('#refreshItem').click(function() {
+        $(".item-name").html(""); 
         getitems();
 
 });

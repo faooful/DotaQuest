@@ -27,13 +27,13 @@ a:hover { color: #000; }
 }
 
 #hero-name {
-    height: 100px;
     width: 100px;
 }
 
-#item-name {
-    height: 100px;
-    width: 100px;
+.item-name {
+    height: 500px;
+    width: 500px;
+    float: left;
 }
 
 footer {
