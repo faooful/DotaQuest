@@ -37,7 +37,7 @@
 
 </header>
 
-<div id="hero-name"></div>
+<div class="hero-name"></div>
 <div class="item-name"></div>
 
 <button id="refreshHero">Hero</button>
@@ -59,7 +59,7 @@
 	function getheroes() {
         $.getJSON('heroes.json',function(data){
             var heroes = data.result.heroes[Math.ceil(Math.random()*103)].name;
-            $('#hero-name').html(heroes);
+            $('.hero-name').html(heroes);
         }).error(function(){
         });
     }
