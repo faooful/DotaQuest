@@ -25,11 +25,7 @@ a:hover { color: #000; }
 .clear-fix {
   clear:both;
 }
- 
-#hero-name, #item-name {
-    height: 100px;
-    width: 100px;
-}
+
 
 footer {
   height: auto;

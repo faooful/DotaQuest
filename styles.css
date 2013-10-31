@@ -1,46 +1,36 @@
-
-body, html {
-  background: #666;
-  font-family: Arial, Calibri, sans-serif;
-  font-weight: 400;
-  color: #000;
+html body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #e5e5e5;
 }
 
 * { margin: 0; padding: 0; border: 0; }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+header {
   display: block;
 }
 
-::selection { color: #FFF; background: #666; }
-
-h1 { font-size: 2em; }
-h2 { font-size: 1.5em; }
-h3 { font-size: 1.2em; }
-p  { font-size: 1em; }
-
-a { color: #FFF; text-decoration: underline; }
-a:hover { color: #000; }
-
-.clear-fix {
-  clear:both;
+header h1 {
+  background-color: #1a1a1a;
+  color: #999999;
 }
 
-#hero-name {
-    width: 1200px;
+.hero-name, .item-name {
+    width: 80%;
     text-align: center;
+    margin: 10px auto 10px;
+    padding: 10px 0 10px;
+    background-color: #d25858
+}
+
+#button-container {
+    top: 600px;
     margin: auto;
+    text-align: center;
 }
 
-.item-name {
-    height: 500px;
-    width: 500px;
-    float: left;
+#refreshHero, #refreshItem {
+  height: 50px;
+  width: 100px;
+  margin: 5px;
+  border: 1px solid #1a1a1a;
 }
-
-footer {
-  height: auto;
-  overflow: hidden;
-}
-
-

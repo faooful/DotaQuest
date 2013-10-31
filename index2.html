@@ -10,11 +10,13 @@
 <title>DotaQuest | Randomized Dota objectives</title>
 
 <!--<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" />-->
-<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 <!--<link rel="stylesheet" href="css/mobile.css" type="text/css" media="screen" />-->
 
 
 <link rel="shortcut icon" href="images/favicon.ico">
+
 
 <!--[if lt IE 9]>
 <script src="js/respond.min.js"></script>
@@ -40,9 +42,10 @@
 <div class="hero-name"></div>
 <div class="item-name"></div>
 
-<button id="refreshHero">Hero</button>
-<button id="refreshItem">Items</button>
-
+<div id="button-container">
+    <button id="refreshHero">Hero</button>
+    <button id="refreshItem">Items</button>
+</div>
 
 
 <footer>
@@ -82,7 +85,7 @@
         $.getJSON('items.json',function(data) {
             for ( var i = 0; i < 6; i++ ) {
                 var items = data.result.items[arr[i]].item;
-                $('.item-name').append(items + " ");
+                $('.item-name').append(items + ", ");
             }
         }).error(function(){
         });
