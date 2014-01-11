@@ -1,35 +1,82 @@
-
-body, html {
-  background: #666;
-  font-family: Arial, Calibri, sans-serif;
-  font-weight: 400;
-  color: #000;
+html body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #FFF;
 }
 
 * { margin: 0; padding: 0; border: 0; }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+header {
   display: block;
+  height: 100px;
+  /*background:url(../images/top-image4.jpg) no-repeat;*/
+  /*background-size: cover;*/
 }
 
-::selection { color: #FFF; background: #666; }
+.dota2logo {
+  background:url(../images/dota2logo.jpg) no-repeat;
+  height: 110px;
+  width: 110px;
+  margin: 0 auto;
+  margin-top: 10%;
+  position: relative;
+-webkit-animation: floatBubble 0.7s infinite;
+    -webkit-animation-direction:alternate;
+  }
 
-h1 { font-size: 2em; }
-h2 { font-size: 1.5em; }
-h3 { font-size: 1.2em; }
-p  { font-size: 1em; }
 
-a { color: #FFF; text-decoration: underline; }
-a:hover { color: #000; }
+@-webkit-keyframes floatBubble{
+ from{
+        top:0;
+        -webkit-animation-timing-function: ease-in;
 
-.clear-fix {
-  clear:both;
+   }
+
+
+   to {
+      top: 10px;
+      -webkit-animation-timing-function: ease-out;
+   }
+
+}
 }
 
-
-footer {
-  height: auto;
-  overflow: hidden;
+.top-info {
+  vertical-align: middle;
 }
 
+p.title {
+  font-family: 'Lustria', serif;
+  font-size: 50px;
+  color: #FA3434;
+  text-align: center;
+}
 
+p.description {
+  text-align: center;
+  font-size: 12px;
+}
+
+.hero-name, .item-name {
+  width: 80%;
+  text-align: center;
+  margin: 10px auto 10px;
+  padding: 10px 0 10px;
+}
+
+#button-container {
+  padding-top: 2%;
+  margin: auto;
+  text-align: center;
+}
+
+#refreshHero, #refreshItem {
+  height: 30px;
+  width: 100px;
+  margin: 5px;
+  background-color: #EEE;
+  border-bottom: 2px solid #B2B1B1;
+}
+
+#refreshHero:hover, #refreshItem:hover {
+  border: none;
+}

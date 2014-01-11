@@ -38,6 +38,20 @@
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
+    #button-container {
+        padding-top: 12%;
+    }
+}
 
+@media (max-width: 309px) {
+    #button-container {
+        padding-top: 32%;
+    }
+}
+
+@media (max-width: 224px) {
+    #button-container {
+        padding-top: 45%;
+    }
 }
