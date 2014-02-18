@@ -413,8 +413,24 @@
                 "name": "Legion commander",
                 "id": 104
             }
+            {
+                "name": "Flame Spirit",
+                "id": 105
+            }
+            {
+                "name": "Earth Spirit",
+                "id": 106
+            }
+            {
+                "name": "Pheonix",
+                "id": 107
+            }
+            {
+                "name": "Terrorblade",
+                "id": 108
+            }
         ]
         ,
-        "count": 104
+        "count": 108
     }
 }
