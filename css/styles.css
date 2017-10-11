@@ -1,5 +1,5 @@
 html body {
-  font-family: 'Raleway', sans-serif;
+  font-family: DidotLTPro-Roman,Didot,Cardo,"Times New Roman",serif;
   background-color: #FFF;
 }
 
@@ -19,9 +19,9 @@ header {
   margin: 0 auto;
   margin-top: 10%;
   position: relative;
--webkit-animation: floatBubble 0.7s infinite;
-    -webkit-animation-direction:alternate;
-  }
+  -webkit-animation: floatBubble 0.7s infinite;
+  -webkit-animation-direction:alternate;
+}
 
 
 @-webkit-keyframes floatBubble{
@@ -52,31 +52,47 @@ p.title {
 }
 
 p.description {
+  width: 100%;
+  position: absolute;
+  top: 40px;
+  color: #757a83;
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
+  font-family: AvenirLT-Book,Avenir,AvenirLTStd-Book,Muli,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .hero-name, .item-name {
   width: 80%;
   text-align: center;
   margin: 10px auto 10px;
-  padding: 10px 0 10px;
+  font-size: 70px;
+}
+
+.item-name {
+  font-size: 40px;
+  opacity: .3;
 }
 
 #button-container {
-  padding-top: 2%;
+  padding-top: 10%;
   margin: auto;
   text-align: center;
 }
 
 #refreshHero, #refreshItem {
-  height: 30px;
-  width: 100px;
-  margin: 5px;
-  background-color: #EEE;
-  border-bottom: 2px solid #B2B1B1;
+  height: 50px;
+  width: 200px;
+  position: absolute;
+  border-radius: 5px;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -100px;
+  background: #FA3434;
+  font-size: 16px;
+  font-family: AvenirLT-Book,Avenir,AvenirLTStd-Book,Muli,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
 }
 
 #refreshHero:hover, #refreshItem:hover {
-  border: none;
+  background: #FA3434;
 }

@@ -17,6 +17,8 @@
 <link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
+<!--<link rel="stylesheet" href="css/mobile.css" type="text/css" media="screen" />-->
+
 
 <link rel="shortcut icon" href="images/favicon.ico">
 
@@ -35,18 +37,14 @@
 
 <div id="main-wrapper">
 
-<div class="dota2logo"></div>
-
 <header>
     <div class="top-info"> 
-    	<p class="title">DoTA2 Quest</p>
         <p class="description">Randomised hero and items for a unique dota2 expereince</p>
     </div>
 </header>
 
 <div id="button-container">
-    <button id="refreshHero">Hero</button>
-    <button id="refreshItem">Items</button>
+    <button id="refreshHero">Get me a quest!</button>
 </div>
 
 <div class="hero-name"></div>
@@ -97,7 +95,7 @@
         }).error(function(){
         });
     }
-        $('#refreshItem').click(function() {
+        $('#refreshHero').click(function() {
         $(".item-name").html(""); 
         getitems();
 
